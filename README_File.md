@@ -1,49 +1,35 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing
+> We are given various numerical & categorical variables (independent variables) and a target variable 'cnt'. We have to build a multiple linear regression model for the prediction of demand for shared bikes i.e. 'cnt' variable.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Technologies Used](#technologies-used)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- I have build a multiple linear regression model for the prediction of demand for shared bikes.
+- Our goal is to identify a few top predictor variables which can help the company to make their strategies accordingly.
+- I am using 'day.csv' files which have some numeric variable & some categorical variable
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- The company should focus on these top three parameters which positively impacts our target variable 'cnt'
+  - yr
+  - temp
+  - winter
+- The company should also focus on these top three parameters which negatively impacts our target variable 'cnt'
+  - Light_Snow
+  - Windspeed
+  - Spring
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
+- Scikit Learn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
 
 <!-- Optional -->
 <!-- ## License -->
